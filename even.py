@@ -1,6 +1,8 @@
-x=int(input("введите число "))
+import sys
+
+x=int(sys.argv[1])
 
 if x%2==0:
-    print("чётное")
+    print("чёт")
 else:
-    print("нечётное")
+    print("нечёт")
